@@ -1,0 +1,13 @@
+{
+  "forms": {
+    "contacMe": {
+      "name": "Contact Me",
+      "actions": [{ "type": "email", "to": "alissong.alvarez@gmail.com" }],
+      "fields": {
+        "email": {
+          "required": true
+        }
+      }
+    }
+  }
+}
