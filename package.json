@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "formspree":"formspree deploy",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "vite build && formspree deploy"
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",

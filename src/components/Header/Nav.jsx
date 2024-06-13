@@ -74,10 +74,10 @@ function Nav() {
         dragElastic={0.05}
         dragSnapToOrigin>
         <MenuButton onClick={() => setClick(!click)}>Menu</MenuButton>
-        <MenuItem>Home</MenuItem>
-        <MenuItem>About</MenuItem>
-        <MenuItem>Projects</MenuItem>
-        <MenuItem>Contact</MenuItem>
+        <MenuItem>Inicio</MenuItem>
+        <MenuItem>Acerca de mi</MenuItem>
+        <MenuItem>Proyectos</MenuItem>
+        <MenuItem>Contacto</MenuItem>
       </MenuItems>
     </NavContainer >
   )

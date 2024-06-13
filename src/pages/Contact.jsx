@@ -5,7 +5,7 @@ import Gif from '../assets/videos/contact.mp4'
 
 const Section = styled.section`
   width: 100%;
-  min-height: 80vh;
+  min-height: 90vh;
   position: relative; 
   display: flex;
   flex-direction: column;
@@ -69,12 +69,12 @@ const Form = styled.form`
 
 const VideoContainer = styled.div`
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     background-color: ${props => props.theme.body};
 
     video{
         width: 100%;
-        height: 90vh;
+        height: 100vh;
     }
 `
 
